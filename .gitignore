@@ -1,0 +1,47 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+build/
+dist/
+*.egg-info/
+.eggs/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# ===== 虚拟环境 =====
+.venv/
+venv/
+env/
+ENV/
+.conda/
+
+# ===== 密钥 / 本地配置（重要：仓库已公开，切勿提交）=====
+.env
+.env.*
+.streamlit/secrets.toml
+*.pem
+*.key
+
+# ===== 日志 / 本地数据 =====
+*.log
+*.sqlite
+*.sqlite3
+
+# ===== IDE / 编辑器 =====
+.idea/
+*.swp
+*.swo
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+
+# ===== 操作系统 =====
+.DS_Store
+Thumbs.db
+desktop.ini
